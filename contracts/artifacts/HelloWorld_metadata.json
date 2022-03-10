@@ -6,6 +6,17 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
 				"name": "getMessage",
 				"outputs": [
@@ -73,11 +84,11 @@
 	},
 	"sources": {
 		"contracts/HelloWorld.sol": {
-			"keccak256": "0xdd6b18b19e4828e620233676f54c38dedf36275737d4e6dffc015b9440fa03b4",
+			"keccak256": "0x0a18df72fc3953154dd5136f38504668fdfb2c9aae5aa0a5cf519a7526f49f40",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://fd2e4f99da76af5a97bc00ccdd6e57e5fa3ff893eadbfb552d3f034bc97cd93d",
-				"dweb:/ipfs/QmdanpeL3KnW2hqCA3S71TvnrSACf7mebbJ4qdjeX45kUb"
+				"bzz-raw://019afc649ffcd60729290c52c9b88f46e965e2c5a2eefcf536fd2e2a87e3d688",
+				"dweb:/ipfs/QmPq5qyGvAGLWLJpeXQq2JSE414rM83uXA6vdHQZBNCvoY"
 			]
 		}
 	},
